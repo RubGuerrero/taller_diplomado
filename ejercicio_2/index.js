@@ -92,12 +92,12 @@ const registrar = () => {
     }
 
     else if (isNaN(cc)) {
-        alert("El documento Cc debe ser un numero")
+        alert("El Numero de documento ingresado no es valido")
         return
     }
 
     else if (isNaN(telefono)) {
-        alert("El telefono ingresado no es un numero")
+        alert("El Numero de telefono ingresado no es valido")
         return
     }
 
